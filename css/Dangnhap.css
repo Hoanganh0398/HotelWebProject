@@ -1,0 +1,125 @@
+@font-face {
+    font-family: '#9Slide04 Philosopher';
+    src: url('../Fonts/9Slide04Philosopher.eot');
+    src: url('../Fonts/9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide04Philosopher.woff2') format('woff2'),
+        url('../Fonts/9Slide04Philosopher.woff') format('woff'),
+        url('../Fonts/9Slide04Philosopher.ttf') format('truetype'),
+        url('../Fonts/9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+body{
+    font-family:  '#9Slide04 Philosopher';
+    text-shadow: 1px 1px rgba(41,29,29);
+    background: url('../Images/logotest2.jpg');
+    background-size: cover;
+    font-size: 16px;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    
+    max-width: 400px;
+    background: rgba(0, 0, 0 , 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    font-family:  '#9Slide04 Philosopher';
+    text-shadow: 1px 1px rgba(41,29,29);
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+#eye1 i{
+    padding-right: 0;
+    cursor: pointer;
+}
+.dangnhap{
+    font-family:  '#9Slide04 Philosopher';
+    float:left;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 29px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dangki{
+    float:right;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 40%;
+    text-transform: uppercase;
+    padding: 6px 3px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.tieptuc{
+    float:left;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 95%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.dangnhap:hover{
+    border: 1px solid #54a0ff;
+}
+.dangki:hover{
+    border: 1px solid #54a0ff;
+}
+.tieptuc:hover{
+    border: 1px solid #54a0ff;
+}
+
+.trangthai{
+    opacity: 0;
+    background-color: #54a0ff;
+    
+}

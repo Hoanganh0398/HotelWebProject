@@ -1,0 +1,370 @@
+@font-face {
+    font-family: '#9Slide04 Philosopher';
+    src: url('../Fonts/9Slide04Philosopher.eot');
+    src: url('../Fonts/9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide04Philosopher.woff2') format('woff2'),
+        url('../Fonts/9Slide04Philosopher.woff') format('woff'),
+        url('../Fonts/9Slide04Philosopher.ttf') format('truetype'),
+        url('../Fonts/9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+body{
+    font-family:  '#9Slide04 Philosopher';
+    text-shadow: 1px 1px rgba(41,29,29);
+    background: url('../Images/logotest.jpg');
+    background-size: cover;
+    font-size: 16px;
+    overflow: hidden;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-reg{
+    max-height: fit-content;
+    max-width: 600px;
+    background: rgba(0, 0, 0 , 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    font-family:  '#9Slide04 Philosopher';
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+.form-s{
+    font-family: '#9Slide04 Philosopher';
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-s::placeholder{
+    color: #f5f5f5;
+}
+.form-se{
+    
+background-color: #222222f0;
+    
+border: 1px solid #3a3e4191;
+    
+border-radius: 10px;
+    
+color:rgb(211, 221, 220);
+    
+width: 100%;
+    
+padding-left: 2%;
+    
+text-align: center;
+    
+transition: 0.25s ease-in-out;
+    
+margin: auto;
+    
+font-size: 20px;
+    
+font-weight: 600;
+    
+margin-bottom: 2%;
+}
+.form-se i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+#eye1 i{
+    padding-right: 0;
+    cursor: pointer;
+}
+#eye2 i{
+    padding-right: 0;
+    cursor: pointer;
+}
+#calendar{
+    color: auto;
+}
+.dangki{
+    font-family:  '#9Slide04 Philosopher';
+    float:left;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    padding-left: 35px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dangnhap{
+    float: left;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 45%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tieptuc{
+    float:right;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 40%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.dangnhap:hover{
+    border: 1px solid #54a0ff;
+}
+.dangki:hover{
+    border: 1px solid #54a0ff;
+}
+.tieptuc:hover{
+    border: 1px solid #54a0ff;
+}
+
+/*Giới tính */
+.form-check-label1{
+    color: #46a5ee;
+    float: left;
+}
+.form-check-label2{
+    color: #fd23d1;
+    float: left;
+}
+.form-check-inline1 {
+    float: left;
+    margin-left: 15%;
+}
+.form-check-inline2 {
+    margin-left: 75%;
+    }
+
+.form-check-input1{
+    float:left;
+}
+
+.canhbao{ /* cảnh báo nhập thông tin */
+    background: #ffdb9b;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #ffa502;
+    overflow: hidden;
+   
+}
+.canhbao.show{
+    animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+      0%{
+        transform: translateX(100%);
+      }
+      40%{
+        transform: translateX(-10%);
+      }
+      80%{
+        transform: translateX(0%);
+      }
+      100%{
+        transform: translateX(-10px);
+      }
+      
+}
+.canhbao.hide{
+    animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+    0%{
+      transform: translateX(-10px);
+    }
+    40%{
+      transform: translateX(0%);
+    }
+    80%{
+      transform: translateX(-10%);
+    }
+    100%{
+      transform: translateX(100%);
+    }
+    
+}
+
+
+.canhbao .fa-exclamation-circle{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ce8500;
+    font-size: 20px;
+    text-shadow: none;
+}
+.canhbao .msg{
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: none;
+    opacity: 1;
+}
+.canhbao .nut-dong{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffd080;
+    padding: 20px 18px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #2ecc71;
+    outline: none;
+    border: 3px solid #ffd080;
+    opacity: 1;
+    transition: 0.4s;
+}
+.canhbao .nut-dong .fa-times{
+    color: #ce8500;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+
+.thanhcong{ /* Đăng kí thành công */
+    background: #86f0bf;
+    color: #0d6331;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #0ad860;
+    overflow: hidden;
+   
+}
+.thanhcong.show{
+    animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+      0%{
+        transform: translateX(100%);
+      }
+      40%{
+        transform: translateX(-10%);
+      }
+      80%{
+        transform: translateX(0%);
+      }
+      100%{
+        transform: translateX(-10px);
+      }
+      
+}
+.thanhcong.hide{
+    animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+    0%{
+      transform: translateX(-10px);
+    }
+    40%{
+      transform: translateX(0%);
+    }
+    80%{
+      transform: translateX(-10%);
+    }
+    100%{
+      transform: translateX(100%);
+    }
+    
+}
+
+
+.thanhcong .fa-circle-check{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #129247;
+    font-size: 20px;
+    text-shadow: none;
+}
+.thanhcong .msg{
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: none;
+    opacity: 1;
+}
+.thanhcong .nut-dong{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #22d26b;
+    padding: 20px 18px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #000000;
+    outline: none;
+    border: 3px solid #22d26b;
+    opacity: 1;
+    transition: 0.4s;
+}
+.thanhcong .nut-dong .fa-times{
+    color: #129247;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+

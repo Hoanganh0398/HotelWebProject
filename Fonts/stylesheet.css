@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'SVN-Fiolex Girls';
+    src: url('SVN-FiolexGirls.eot');
+    src: url('SVN-FiolexGirls.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FiolexGirls.woff2') format('woff2'),
+        url('SVN-FiolexGirls.woff') format('woff'),
+        url('SVN-FiolexGirls.ttf') format('truetype'),
+        url('SVN-FiolexGirls.svg#SVN-FiolexGirls') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesBo.eot');
+    src: url('9Slide03MontserratAlternatesBo.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesBo.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesBo.woff') format('woff'),
+        url('9Slide03MontserratAlternatesBo.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesBo.svg##9Slide03MontserratAlternatesBo') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesEx.eot');
+    src: url('9Slide03MontserratAlternatesEx.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesEx.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesEx.woff') format('woff'),
+        url('9Slide03MontserratAlternatesEx.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesEx.svg##9Slide03MontserratAlternatesEx') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesBl.eot');
+    src: url('9Slide03MontserratAlternatesBl.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesBl.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesBl.woff') format('woff'),
+        url('9Slide03MontserratAlternatesBl.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesBl.svg##9Slide03MontserratAlternatesBl') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesMe.eot');
+    src: url('9Slide03MontserratAlternatesMe.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesMe.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesMe.woff') format('woff'),
+        url('9Slide03MontserratAlternatesMe.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesMe.svg##9Slide03MontserratAlternatesMe') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesLi.eot');
+    src: url('9Slide03MontserratAlternatesLi.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesLi.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesLi.woff') format('woff'),
+        url('9Slide03MontserratAlternatesLi.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesLi.svg##9Slide03MontserratAlternatesLi') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesEx_1.eot');
+    src: url('9Slide03MontserratAlternatesEx_1.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesEx_1.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesEx_1.woff') format('woff'),
+        url('9Slide03MontserratAlternatesEx_1.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesEx_1.svg##9Slide03MontserratAlternatesEx') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratExtraBold.eot');
+    src: url('9Slide03MontserratExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratExtraBold.woff2') format('woff2'),
+        url('9Slide03MontserratExtraBold.woff') format('woff'),
+        url('9Slide03MontserratExtraBold.ttf') format('truetype'),
+        url('9Slide03MontserratExtraBold.svg##9Slide03MontserratExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternates.eot');
+    src: url('9Slide03MontserratAlternates.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternates.woff2') format('woff2'),
+        url('9Slide03MontserratAlternates.woff') format('woff'),
+        url('9Slide03MontserratAlternates.ttf') format('truetype'),
+        url('9Slide03MontserratAlternates.svg##9Slide03MontserratAlternates') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesTh.eot');
+    src: url('9Slide03MontserratAlternatesTh.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesTh.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesTh.woff') format('woff'),
+        url('9Slide03MontserratAlternatesTh.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesTh.svg##9Slide03MontserratAlternatesTh') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat Alternates';
+    src: url('9Slide03MontserratAlternatesSe.eot');
+    src: url('9Slide03MontserratAlternatesSe.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratAlternatesSe.woff2') format('woff2'),
+        url('9Slide03MontserratAlternatesSe.woff') format('woff'),
+        url('9Slide03MontserratAlternatesSe.ttf') format('truetype'),
+        url('9Slide03MontserratAlternatesSe.svg##9Slide03MontserratAlternatesSe') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratBlack.eot');
+    src: url('9Slide03MontserratBlack.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratBlack.woff2') format('woff2'),
+        url('9Slide03MontserratBlack.woff') format('woff'),
+        url('9Slide03MontserratBlack.ttf') format('truetype'),
+        url('9Slide03MontserratBlack.svg##9Slide03MontserratBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratBold-Bold.eot');
+    src: url('9Slide03MontserratBold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratBold-Bold.woff2') format('woff2'),
+        url('9Slide03MontserratBold-Bold.woff') format('woff'),
+        url('9Slide03MontserratBold-Bold.ttf') format('truetype'),
+        url('9Slide03MontserratBold-Bold.svg##9Slide03MontserratBold-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratExtraLight.eot');
+    src: url('9Slide03MontserratExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratExtraLight.woff2') format('woff2'),
+        url('9Slide03MontserratExtraLight.woff') format('woff'),
+        url('9Slide03MontserratExtraLight.ttf') format('truetype'),
+        url('9Slide03MontserratExtraLight.svg##9Slide03MontserratExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratMedium.eot');
+    src: url('9Slide03MontserratMedium.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratMedium.woff2') format('woff2'),
+        url('9Slide03MontserratMedium.woff') format('woff'),
+        url('9Slide03MontserratMedium.ttf') format('truetype'),
+        url('9Slide03MontserratMedium.svg##9Slide03MontserratMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratThin.eot');
+    src: url('9Slide03MontserratThin.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratThin.woff2') format('woff2'),
+        url('9Slide03MontserratThin.woff') format('woff'),
+        url('9Slide03MontserratThin.ttf') format('truetype'),
+        url('9Slide03MontserratThin.svg##9Slide03MontserratThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratLight.eot');
+    src: url('9Slide03MontserratLight.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratLight.woff2') format('woff2'),
+        url('9Slide03MontserratLight.woff') format('woff'),
+        url('9Slide03MontserratLight.ttf') format('truetype'),
+        url('9Slide03MontserratLight.svg##9Slide03MontserratLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03MontserratSemiBold.eot');
+    src: url('9Slide03MontserratSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03MontserratSemiBold.woff2') format('woff2'),
+        url('9Slide03MontserratSemiBold.woff') format('woff'),
+        url('9Slide03MontserratSemiBold.ttf') format('truetype'),
+        url('9Slide03MontserratSemiBold.svg##9Slide03MontserratSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide03 Montserrat';
+    src: url('9Slide03Montserrat.eot');
+    src: url('9Slide03Montserrat.eot?#iefix') format('embedded-opentype'),
+        url('9Slide03Montserrat.woff2') format('woff2'),
+        url('9Slide03Montserrat.woff') format('woff'),
+        url('9Slide03Montserrat.ttf') format('truetype'),
+        url('9Slide03Montserrat.svg##9Slide03Montserrat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: '#9Slide03 Philosopher';
+    src: url('9Slide03Philosopher.woff2') format('woff2'),
+        url('9Slide03Philosopher.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: '#9Slide07 Bungee Shade';
+    src: url('9Slide07BungeeShade.eot');
+    src: url('9Slide07BungeeShade.eot?#iefix') format('embedded-opentype'),
+        url('9Slide07BungeeShade.woff2') format('woff2'),
+        url('9Slide07BungeeShade.woff') format('woff'),
+        url('9Slide07BungeeShade.ttf') format('truetype'),
+        url('9Slide07BungeeShade.svg##9Slide07BungeeShade') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide04 Philosopher';
+    src: url('9Slide04Philosopher.eot');
+    src: url('9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('9Slide04Philosopher.woff2') format('woff2'),
+        url('9Slide04Philosopher.woff') format('woff'),
+        url('9Slide04Philosopher.ttf') format('truetype'),
+        url('9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide05 SFU Belle';
+    src: url('9Slide05SFUBelle.eot');
+    src: url('9Slide05SFUBelle.eot?#iefix') format('embedded-opentype'),
+        url('9Slide05SFUBelle.woff2') format('woff2'),
+        url('9Slide05SFUBelle.woff') format('woff'),
+        url('9Slide05SFUBelle.ttf') format('truetype'),
+        url('9Slide05SFUBelle.svg##9Slide05SFUBelle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#9Slide05 SVNThe Carpenter';
+    src: url('9Slide05SVNTheCarpenter-Regula.eot');
+    src: url('9Slide05SVNTheCarpenter-Regula.eot?#iefix') format('embedded-opentype'),
+        url('9Slide05SVNTheCarpenter-Regula.woff2') format('woff2'),
+        url('9Slide05SVNTheCarpenter-Regula.woff') format('woff'),
+        url('9Slide05SVNTheCarpenter-Regula.ttf') format('truetype'),
+        url('9Slide05SVNTheCarpenter-Regula.svg##9Slide05SVNTheCarpenter-Regula') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

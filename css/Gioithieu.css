@@ -1,0 +1,116 @@
+@font-face {
+  font-family: '#9Slide04 Philosopher';
+  src: url('../Fonts/9Slide04Philosopher.eot');
+  src: url('../Fonts/9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/9Slide04Philosopher.woff2') format('woff2'),
+      url('../Fonts/9Slide04Philosopher.woff') format('woff'),
+      url('../Fonts/9Slide04Philosopher.ttf') format('truetype'),
+      url('../Fonts/9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: '#9Slide05 SFU Belle';
+  src: url('../Fonts/9Slide05SFUBelle.eot');
+  src: url('../Fonts/9Slide05SFUBelle.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/9Slide05SFUBelle.woff2') format('woff2'),
+      url('../Fonts/9Slide05SFUBelle.woff') format('woff'),
+      url('../Fonts/9Slide05SFUBelle.ttf') format('truetype'),
+      url('../Fonts/9Slide05SFUBelle.svg##9Slide05SFUBelle') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px auto;
+
+  background-size: cover;
+  font-size: 16px;
+ 
+  background-repeat: no-repeat;
+ 
+}
+.Background{
+  
+}
+
+
+
+.Section{
+  
+  background-size:1000px 750px;
+  background-image: url(../Images/Logo.png);
+  background-position: center top;
+
+  font-family: arial;
+    background-color: #00000000;
+    border: 20px solid #455e7e;
+    padding: 2px;
+    box-sizing: border-box;
+    background-origin: content-box;
+  background-repeat: no-repeat;
+  margin: 0%;
+
+}
+.intro{
+  
+  font-family: '#9Slide04 Philosopher';
+  margin: auto;
+  position:top;
+  text-align: center;
+  background: linear-gradient(to right,rgba(76, 62, 82, 0.96),rgba(27, 9, 25, 0.96) );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.center{
+  
+  font-size:3rem;
+}
+.center1{
+ 
+  font-size:3rem;
+}
+
+
+a.fonttrangchu{
+  text-decoration: none;
+  font-size: larger;
+  background: linear-gradient(to right,rgba(50, 83, 113, 0.96),rgba(42, 45, 225, 0.96) );
+  border: 2px solid #5c187c;
+  padding: 20px;
+  color: #ffffff;
+  margin: center;
+  
+}
+a.fonttrangchu:hover {
+  border: 3px solid #346bad;
+}
+
+.dangnhap{
+  font-family: '#9Slide04 Philosopher';
+  float: left;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+.trangchu{
+  font-family: '#9Slide04 Philosopher';
+  float: right;
+  margin-right: 5%;
+}
+.khoangtrang1{
+  clear: both;
+  margin-bottom: 32%;
+  text-align: center ;
+}
+.khoangtrang2{
+  clear: both;
+  margin-bottom:603px;
+  text-align: center ;
+}
+
+
+

@@ -1,0 +1,689 @@
+
+@font-face {
+  font-family: 'SVN-Fiolex Girls';
+  src: url('../Fonts/SVN-FiolexGirls.eot');
+  src: url('../Fonts/SVN-FiolexGirls.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/SVN-FiolexGirls.woff2') format('woff2'),
+      url('../Fonts/SVN-FiolexGirls.woff') format('woff'),
+      url('../Fonts/SVN-FiolexGirls.ttf') format('truetype'),
+      url('../Fonts/SVN-FiolexGirls.svg#SVN-FiolexGirls') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+  @font-face {
+    font-family: '#9Slide05 SFU Belle';
+    src: url('../Fonts/9Slide05SFUBelle.eot');
+    src: url('../Fonts/9Slide05SFUBelle.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide05SFUBelle.woff2') format('woff2'),
+        url('../Fonts/9Slide05SFUBelle.woff') format('woff'),
+        url('../Fonts/9Slide05SFUBelle.ttf') format('truetype'),
+        url('../Fonts/9Slide05SFUBelle.svg##9Slide05SFUBelle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: '#9Slide04 Philosopher';
+    src: url('../Fonts/9Slide04Philosopher.eot');
+    src: url('../Fonts/9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide04Philosopher.woff2') format('woff2'),
+        url('../Fonts/9Slide04Philosopher.woff') format('woff'),
+        url('../Fonts/9Slide04Philosopher.ttf') format('truetype'),
+        url('../Fonts/9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html{
+    scroll-behavior: smooth ;
+    /*cursor: none;*/
+  }
+  header{
+    margin-top: 50px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  
+  
+  body {
+  background-image: url(../Images/logotest1.jpg);
+
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+  }
+  
+  
+  .BB{
+    margin-top: 50px;
+    margin-left: 30px;
+  border-radius: 10px;
+  padding: 60px;
+  background: url(../Images/Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  }
+  
+  
+  
+  
+  .nut{
+    display: flex;
+    margin: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .button1 {
+    font-family: 'Poppins',sans-serif;
+    background: #081110c0;
+    border: 1px solid #000;
+    padding: 5px;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 10%;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 1%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+  }
+  .button1:hover{
+    background:  #1abc9c;
+    
+  }
+  
+  .Theodoi{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+    transition:  all 0.3s ease-in-out;
+  }
+  .Theodoi:hover{
+    color: #000;
+  }
+  
+  .SearchFont{
+    font-family: '#9Slide04 Philosopher', Helvetica, sans-serif ;
+    font-weight: 600;
+  }
+  .footer{ 
+    float: left;
+    padding: 5%;
+    font-family: '#9Slide04 Philosopher', Helvetica, sans-serif ; 
+    width:90%; 
+    height:100%;
+    background: linear-gradient(to right,rgba(160, 187, 244, 0.455),rgba(52, 121, 58, 0.422));
+    font-weight: 600;
+  
+  }
+  .FontFooter{
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right,rgb(18, 16, 66),rgb(18, 52, 72) );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.1rem;
+  }
+  .diachi{
+    float: left;
+  }
+  
+  .taskbar {
+    font-family: 'Poppins',sans-serif;
+    height: 50px;
+    width: 73%;
+    font-size: 0;
+    background-color: #222222c0;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    margin-left: 280px;
+  }
+    
+  .taskbar a { /* nhét link */
+    color: #d3eae6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+  }
+    .taskbar div { /* nhét link */
+    color: #d3eae6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+    display: inline-block;
+  }
+
+
+  .nhatki { /* Nhật kí */
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+    cursor: pointer;
+    color: #d3eae6;
+  }
+    .nhatki::after{/* Mũi tên nhỏ nhỏ */
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent; 
+    border-top: 10px solid #333;
+    left: 45%;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+    bottom: 30%;
+    }
+    .nhatki::before{/* Mũi tên nhỏ nhỏ */
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid transparent;      
+    left: 90%;
+    bottom: 38%;
+    }
+    .nhatki:hover:after{ /* Mũi tên nho nhỏ lấp lánh */
+    opacity: 1;
+    bottom: -20%;
+    }
+    .nhatki1{ /* Bảng khi xổ */
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: -85%;
+    width: 268%;
+    top: 60%;
+    margin-top: 10%;
+    background-color: #222222f0;
+    outline:none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    }
+    
+    .nhatki:hover .nhatki1{ /* Xổ bảng */
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    }
+      
+    .nhatki2{ /* Nội dung đầu trong bảng xổ */
+    padding: 6%;
+    padding-left: 20px;
+    }
+    .nhatki2:hover{
+    background-color: #1abc9c;
+    }
+      
+    .nhatki3{ /* Nội dung thứ 2 trong bảng xổ */
+      padding: 6%;
+      
+    }
+    .nhatki3:hover{
+    background-color: #1abc9c;
+    }
+    .nhatki4{ /* Nội dung thứ 3 trong bảng xổ */
+      width: 100%;
+      text-align: center;
+    }
+    .nhatki4-text{
+      
+    }
+    .nhatki4:hover{
+    background-color: #1abc9c;
+   } 
+
+
+
+
+  
+  .menu { /* Menu */
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+    cursor: pointer;
+    color: #d3eae6;
+  }
+    .menu::after{/* Mũi tên nhỏ nhỏ */
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent; 
+    border-top: 10px solid #333;
+    left: 45%;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+    bottom: 30%;
+    }
+    .menu::before{/* Mũi tên nhỏ nhỏ */
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid transparent;      
+    left: 90%;
+    bottom: 38%;
+    }
+    .menu:hover:after{ /* Mũi tên nho nhỏ lấp lánh */
+    opacity: 1;
+    bottom: -20%;
+    }
+    .menu1{ /* Bảng khi xổ */
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: -25%;
+    width: 150%;
+    top: 60%;
+    margin-top: 10%;
+    background-color: #222222f0;
+    outline:none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    }
+    
+    .menu:hover .menu1{ /* Xổ bảng */
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    }
+      
+    .menu2{ /* Nội dung đầu trong bảng xổ */
+    padding: 6%;
+      
+    }
+    .menu2:hover{
+    background-color: #1abc9c;
+    }
+      
+    .menu3{ /* Nội dung thứ 2 trong bảng xổ */
+    padding: 6%;
+    }
+    .menu3:hover{
+    background-color: #1abc9c;
+    }
+    .menu4{ /* Nội dung thứ 3 trong bảng xổ */
+      padding: 6%;
+    }
+    .menu4:hover{
+    background-color: #1abc9c;
+   }
+
+
+
+   
+.active { /* Đăng nhập */
+      
+  background-color: #4CAF50;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  position:relative;
+  cursor: pointer;
+  
+    }
+  
+  .active:hover { /* Đăng nhập lấp lánh */
+  background-color: #18790f;
+    }
+  .active::after{/* Mũi tên nhỏ nhỏ */
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #333;
+  left: 45%;
+  opacity: 0;
+  transition: 0.25s ease-in-out;
+  bottom: 30%;
+  }
+  .active::before{/* Mũi tên nhỏ nhỏ */
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid transparent;
+   
+  left: 90%;
+  bottom: 38%;
+  }
+  .active:hover:after{ /* Mũi tên nho nhỏ lấp lánh */
+  opacity: 1;
+    bottom: -20%;
+    }
+    .text1{ /* Bảng khi xổ */
+      position: absolute;
+      opacity: 0;
+     visibility: hidden;
+      margin-top: 7%;
+      left: -14%;
+      width: 125%;
+      top: 80%;
+      background-color: #222222f0;
+      transition: 0.3s ease-in-out;
+      letter-spacing: 1px;
+      outline:none;
+      border-radius: 5px;
+      
+    }
+    
+    .active:hover .text1{ /* Xổ bảng */
+      visibility: visible;
+      opacity: 1;
+      top: 100%;
+    }
+    
+    .text2{ /* Nội dung đầu trong bảng xổ */
+      padding: 7%;
+      
+    }
+    .text2:hover{
+    background-color: #1abc9c;
+    }
+    
+    .text3{ /* Nội dung thứ 2 trong bảng xổ */
+      padding: 7%;
+    }
+    .text3:hover{
+    background-color: #1abc9c;
+    }
+    .text4{ /* Nội dung thứ 3 trong bảng xổ */
+      padding: 7%;
+    }
+    .text4:hover{
+    background-color: #1abc9c;
+    }
+    
+  
+  
+  
+    /*Thanh tìm kiếm*/
+    
+    .taskbar .search-container { /* thanh taskbar tìm kiếm */
+  position: relative;
+  float: right;
+  }
+    
+    .taskbar input[type=text] { /* thanh taskbar để cho người ta tìm kiếm */
+      padding: 6px;
+      font-size: 17px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 8px;
+      margin-left: 8px;
+    }
+    .taskbar .search-container button { /* thanh taskbar kính lúp */  
+      padding: 8px 9px;
+      margin-left: 4px;
+      margin-right: 20px;
+      background: #a3dad6;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      transition: 0.5s;
+      border-radius: 20px;
+    }
+    
+    .taskbar .search-container button:hover { /* thanh taskbar kính lúp lấp lánh */
+      background: #14a7a7;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .taskbar .search-container {
+        float: none;
+      }
+      .taskbar a, .taskbar input[type=text], .taskbar, .search-container button {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .taskbar input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+   
+  
+  
+
+  .slide1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .slide2{
+    border: 2px solid wheat;
+    width: 100%;
+    height: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  .slides{
+    width: 500%;
+    height: 600px;
+    display: flex;
+  }
+
+  .slides input{
+    display: none;
+  }
+
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  .slide img{
+    width: 100%;
+    height: 650px;
+  }
+  .nav-ma{
+    position: absolute;
+    width: 1500px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .ma-btn{
+    border: 2px solid #ff3964;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+    
+  }
+  .ma-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  .ma-btn:hover{
+    background: #06ff3c;
+  }
+
+  #radio1:checked ~ .first{
+    margin-left: 100p;
+  }
+
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radio5:checked ~ .first{
+    margin-left: -80%;
+  }
+
+  .imgauto{
+    position: absolute;
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    margin-top: 600px;
+  }
+  .imgauto div{
+    border: 2px solid #ff3964;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  .imgauto div:not(:last-child){
+     margin-right: 40px;
+  }
+
+  #radio1:checked ~ .imgauto .auto1{
+    background: #06ff3c;
+  }
+  #radio2:checked ~ .imgauto .auto2{
+    background: #06ff3c;
+  }
+  #radio3:checked ~ .imgauto .auto3{
+    background: #06ff3c;
+  }
+  #radio4:checked ~ .imgauto .auto4{
+    background: #06ff3c;
+  }
+  #radio5:checked ~ .imgauto .auto5{
+    background: #06ff3c;
+  }
+
+  .imgauto .auto1:checked ~ #radio1{
+    background: #06ff3c;
+  }
+
+  
+ /*Hiệu ứng chuyển màu đi theo thanh taskbar */
+.taskbar a:nth-child(1){
+  width: 119px;
+}
+nav .start-home, .taskbar a:nth-child(1):hover~ .animation{
+  width: 120px;
+  left: 0px;
+}
+.taskbar a:nth-child(2){
+  width: 110px;
+}
+nav .start-danhmuc, .taskbar a:nth-child(2):hover~ .animation{
+  width: 110px;
+  left: 120px;
+}
+.taskbar a:nth-child(3){
+  width: 130px;
+}
+nav .start-nhanvien, .taskbar a:nth-child(3):hover~ .animation{
+  width: 130px;
+  left: 230px;
+}
+.taskbar a:nth-child(4){
+  width: 140px;
+}
+nav .start-khachhang, .taskbar a:nth-child(4):hover~ .animation{
+  width: 140px;
+  left: 360px;
+}
+.taskbar div:nth-child(5){
+  width: 120px;
+}
+nav .start-nhatki, .taskbar div:nth-child(5):hover~ .animation{
+  width: 120px;
+  left: 500px;
+}
+.taskbar div:nth-child(6){
+  width: 90px;
+}
+nav .start-menu, .taskbar div:nth-child(6):hover~ .animation{
+  width: 90px;
+  left: 620px;
+}
+
+nav .animation{
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  z-index: 0;
+  background: #1abc9c;
+  border-radius:  8px;
+  transition: all .5s ease 0s;
+}
+
+
+.sub-menu{
+  position: absolute;
+  background-color: #4a4a4aad;
+  padding: 15px 0px;
+  list-style: none;
+  width: 200px;
+}

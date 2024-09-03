@@ -1,0 +1,695 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'SVN-Fiolex Girls';
+  src: url('../Fonts/SVN-FiolexGirls.eot');
+  src: url('../Fonts/SVN-FiolexGirls.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/SVN-FiolexGirls.woff2') format('woff2'),
+      url('../Fonts/SVN-FiolexGirls.woff') format('woff'),
+      url('../Fonts/SVN-FiolexGirls.ttf') format('truetype'),
+      url('../Fonts/SVN-FiolexGirls.svg#SVN-FiolexGirls') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+  @font-face {
+    font-family: '#9Slide05 SFU Belle';
+    src: url('../Fonts/9Slide05SFUBelle.eot');
+    src: url('../Fonts/9Slide05SFUBelle.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide05SFUBelle.woff2') format('woff2'),
+        url('../Fonts/9Slide05SFUBelle.woff') format('woff'),
+        url('../Fonts/9Slide05SFUBelle.ttf') format('truetype'),
+        url('../Fonts/9Slide05SFUBelle.svg##9Slide05SFUBelle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: '#9Slide04 Philosopher';
+    src: url('../Fonts/9Slide04Philosopher.eot');
+    src: url('../Fonts/9Slide04Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/9Slide04Philosopher.woff2') format('woff2'),
+        url('../Fonts/9Slide04Philosopher.woff') format('woff'),
+        url('../Fonts/9Slide04Philosopher.ttf') format('truetype'),
+        url('../Fonts/9Slide04Philosopher.svg##9Slide04Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+.T{
+  float:left;width:9%; 
+  height:710px;
+   background-color: red; 
+   text-align: center;
+}
+table {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-spacing: 1;
+  background: linear-gradient(90deg,rgb(24, 18, 18),rgb(5, 4, 4));
+  margin-bottom: 5%;
+}
+tr,td{
+ 
+ 
+ font-family: '#9Slide04 Philosopher';
+  border: fit-content, solid black;
+  overflow:auto;
+  border-spacing: 1 ;
+  background-color: #f2f2f2;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border: 1px solid rgba(244, 165, 96, 0.49);
+  border-radius: 10px;
+}
+th {
+ 
+font-family: '#9Slide04 Philosopher';
+border: fit-content, solid black;
+border-spacing: 1 ;
+
+background: linear-gradient(to right,rgb(227, 8, 8),rgba(162, 233, 8, 0.33) );
+-webkit-background-clip: text;
+color: transparent;
+}
+
+html{
+  scroll-behavior: smooth ;
+  /*cursor: none;*/
+}
+header{
+  margin-top: 50px;
+  margin-bottom: 1000px;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+body {
+  background-image: url(../Images/hotel.jpg);
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 140px;
+}
+
+
+.BB{
+  margin-top: 50px;
+  margin-left: 30px;
+border-radius: 10px;
+padding: 60px;
+background: url(../Images/Logo.png);
+background-size: cover;
+background-repeat: no-repeat;
+z-index: -1;
+position: absolute;
+}
+
+
+
+
+.nut{
+  display: flex;
+  margin: 2%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button1 {
+  position: absolute;
+  font-family: 'Poppins',sans-serif;
+  background: #081110c0;
+  border: 1px solid #000;
+  font-weight: 600;
+  font-size: 120%;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  left: 15%;
+  top:25%;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  
+}
+.button1:hover{
+  background:  #1abc9c;
+  
+}
+.button2 {
+  position: absolute;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size:120%;
+  background: #081110c0;
+  border: 1px solid #000;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  left: 70%;
+  top:25%;
+}
+.button2:hover{
+  background:  #1abc9c;
+}
+
+.SearchFont{
+  font-family: '#9Slide04 Philosopher', Helvetica, sans-serif ;
+
+  font-weight: 600;
+}
+.footer{ 
+  float: left;
+  padding: 5%;
+  font-family: '#9Slide04 Philosopher', Helvetica, sans-serif ; 
+  width:90%; 
+  height:100%;
+  background: linear-gradient(to right,rgba(160, 187, 244, 0.455),rgba(52, 121, 58, 0.422));
+  font-weight: 600;
+
+}
+.FontFooter{
+  text-align:center;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(to right,rgb(18, 16, 66),rgb(18, 52, 72) );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.1rem;
+}
+.diachi{
+  float: left;
+}
+
+.taskbar {
+  font-family: 'Poppins',sans-serif;
+  height: 50px;
+  width: 80%;
+  font-size: 0;
+  background-color: #222222c0;
+  position: fixed;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+  margin-left: 260px;
+  clip-path: polygon(0,0, 100% 0 , 100% 100%, 0 100%);
+  }
+  
+  .taskbar a { /* nhét link */
+    color: #d3eae6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    
+    border-radius: 10px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+  }
+  .taskbar div { /* nhét link */
+    color: #d3eae6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+   
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    outline:none;
+    
+  }
+  
+  .active { /* Đăng nhập */
+    
+    background-color: #4CAF50;
+        
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    position:relative;
+    cursor: pointer;
+    
+      }
+    
+    .active:hover { /* Đăng nhập lấp lánh */
+        background-color: #18790f;
+      }
+    .active::after{/* Mũi tên nhỏ nhỏ */
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 10px solid #333;
+        left: 45%;
+        opacity: 0;
+        transition: 0.25s ease-in-out;
+        bottom: 30%;
+    }
+      .active:hover:after{ /* Mũi tên nho nhỏ lấp lánh */
+        opacity: 1;
+        bottom: -20%;
+      }
+    .text1{ /* Bảng khi xổ */
+      position: absolute;
+      opacity: 0;
+     visibility: hidden;
+      margin-top: 7%;
+      left: -14%;
+      width: 125%;
+      top: 50%;
+      background-color: #222222f0;
+      transition: 0.3s ease-in-out;
+      letter-spacing: 1px;
+      outline:none;
+      border-radius: 5px;
+      
+    }
+    
+    .active:hover .text1{ /* Xổ bảng */
+      visibility: visible;
+      opacity: 1;
+      top: 100%;
+    }
+    
+    .text2{ /* Nội dung đầu trong bảng xổ */
+      padding: 3%;
+      
+    }
+    .text2:hover{
+    background-color: #1abc9c;
+    }
+    
+    .text3{ /* Nội dung thứ 2 trong bảng xổ */
+      padding: 3%;
+    }
+    .text3:hover{
+    background-color: #1abc9c;
+    }
+    .text4{ /* Nội dung thứ 3 trong bảng xổ */
+      padding: 3%;
+    }
+    .text4:hover{
+    background-color: #1abc9c;
+    }
+    
+
+    
+    
+
+
+  /*Thanh tìm kiếm*/
+  
+  .taskbar .search-container { /* thanh taskbar tìm kiếm */
+float: right;
+position: relative;
+}
+  
+.taskbar input[type=text] { /* thanh taskbar để cho người ta tìm kiếm */
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.taskbar .search-container button { /* thanh taskbar kính lúp */  
+  padding: 8px 9px;
+  margin-left: 4px;
+  margin-right: 20px;
+  background: #a3dad6;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+  
+  .taskbar .search-container button:hover { /* thanh taskbar kính lúp lấp lánh */
+    background: #14a7a7;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .taskbar .search-container {
+      float: none;
+    }
+    .taskbar a, .taskbar input[type=text], .taskbar, .search-container button {
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .taskbar input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+ 
+
+
+
+
+/*Hiệu ứng chuyển màu đi theo thanh taskbar */
+.taskbar a:nth-child(1){
+  width: 120px;
+}
+nav .start-home, .taskbar a:nth-child(1):hover~ .animation{
+  width: 120px;
+  left: 0px;
+}
+.taskbar a:nth-child(2){
+  width: 220px;
+}
+nav .start-danhmuc, .taskbar a:nth-child(2):hover~ .animation{
+  width: 220px;
+  left: 120px;
+}
+.taskbar a:nth-child(3){
+  width: 100px;
+}
+nav .start-theodoi, .taskbar a:nth-child(3):hover~ .animation{
+  width: 100px;
+  left: 340px;
+}
+.taskbar a:nth-child(4){
+  width: 120px;
+}
+nav .start-dichvu, .taskbar a:nth-child(4):hover~ .animation{
+  width: 120px;
+  left: 440px;
+}
+.taskbar a:nth-child(5){
+  width: 100px;
+}
+nav .start-cacuudai, .taskbar a:nth-child(5):hover~ .animation{
+  width: 100px;
+  left: 560px;
+}
+.taskbar a:nth-child(6){
+  width: 150px;
+}
+nav .start-call, .taskbar a:nth-child(6):hover~ .animation{
+  width: 150px;
+  left: 660px;
+}
+
+nav .animation{
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  z-index: 0;
+  background: #1abc9c;
+  border-radius:  8px;
+  transition: all .5s ease 0s;
+}
+
+/*Phân trang */
+
+.sophantrang{
+  text-align: center;
+  margin: 0;
+  display: contents;
+}
+.sotrang{
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size:large;
+  background: #081110c0;
+  border: 1px solid #000;
+  padding: 3px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 2%;
+  margin-bottom: 30px;
+  
+  transition: 0.3s;
+}
+
+
+.nutphantrang{
+  margin: 0;
+  padding: 3px;
+  padding-bottom: 24px;
+  
+}
+
+/* Content */
+.grid-middle {  /* tạo bảng phải */
+  display: grid;
+  grid-template-columns:  auto auto;
+  padding: 0px;
+  justify-items: center;
+  color: #d3eae6;
+  background-color: #2f2e2e;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Danhmuc{
+  border: 1px solid rgb(18, 13, 13);
+  border-radius: 10px;
+  background-color: #22222238;
+  padding: 0px 0 0 0;
+  margin-left: 13%;
+  border-top: 0px solid #ffffff;
+  overflow-y: scroll;
+  max-height: 524px;
+  max-width: 74%;
+  margin-top: 4%;
+}
+
+#info{
+  border-left: 1px solid #181712;
+  padding: 1%;
+  font-family: 'Poppins',sans-serif;
+  color: #fefefe;
+  float: right;
+  width: 50%;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+#detail{
+  border-top:1px solid #1f1d12;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.STT{
+  color: #d3eae6;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  
+  text-shadow: 2px 2px black;
+}
+.ID{
+  color: #d3eae6;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 2%;
+  margin: 5%;
+  text-align: center;
+
+  text-shadow: 1px 1px #000;
+}
+
+.Theodoi{
+  font-size: 30px;
+  font-weight: 600;
+  color: red;
+  text-shadow: 1px 1px #000;
+  text-decoration: none;
+  transition:  all 0.3s ease-in-out;
+  margin-left: 47%;
+}
+.Theodoi:hover{
+  color: #000;
+}
+.chitiet{
+  color: #d3eae6;
+  text-shadow: 1px 1px #000;
+  font-weight: 600;
+  padding-left: 52%;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.Tenphong{
+  color: #d3eae6;
+  text-shadow: 1px 1px #000;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 2%;
+  margin: 5%;
+  text-align: center;
+  
+}
+.Tinhtrang{
+  color: #d3eae6;
+  text-shadow: 1px 1px #000;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 2%;
+  margin: 5%;
+  text-align: center;
+}
+
+
+
+#Img{
+  float: left;
+  height: 22%;
+  width: 40%;
+  text-align: center;
+  margin: 20px;
+}
+
+#Img img{
+  height: 93%;
+  width: 80%;
+  padding: 0px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+a.add-to-cart{
+  font-size: larger;
+  background: #081110c0;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  margin: center;
+  transition-property: background-color;
+transition:  all 0.3s ease-in-out; 
+}
+a.add-to-cart:hover {
+  
+  background: #1abc9c;
+
+
+}
+
+.Datngay {
+  float:center;
+  margin-top: 13%;
+  text-align: right;
+}
+
+a.fonttrangchu{
+  font-size: larger;
+  background: #081110c0;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  margin: center;
+  transition-property: background-color;
+  transition:  all 0.3s ease-in-out; 
+}
+a.fonttrangchu:hover {
+  
+  background: #1abc9c;
+}
+.Trangchu {
+  float:left;
+  margin-top: 13%;
+  text-align: left;
+}
+
+.khoangtrang{
+  padding: 0%;
+  clear: both;
+  text-align: center ;
+}
+
+.Thanhtien {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size:120%;
+  background: #081110c0;
+  border: 1px solid #000;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  left: 6%;
+  top:20%;
+}
+.Thanhtien:hover{
+  background:  #1abc9c;
+}
+
+.Theodoi2 {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size:120%;
+  background: #081110c0;
+  border: 1px solid #000;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  left: 14%;
+  top:20%;
+}
+.Theodoi2:hover{
+  background:  #1abc9c;
+}
+
+
+.ALO{
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color:#0e1212; ;
+  background-color: aliceblue;
+  margin-left: 1px;
+}
